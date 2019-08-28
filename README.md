@@ -1,36 +1,32 @@
 # Jungle
 
+
+
 ## Dependencies
 
-- rails 4.2.6
-- pg
-- sass-rails ~> 5.0
-- uglifier >= 1.3.0
-- jquery-rails
-- turbolinks
-- jbuilder 2.0
-- sdoc 0.4.0
-- bcrypt 3.1.7
-- puma
-- bootstrap-sass 3.3.6
-- font-awesome-rails
-- money-rails
-- carrierwave
-- rmagick
-- stripe
-- faker
+- Rails 4.2 Rails Guide
+- PostgreSQL 9.x
+- Stripe
+
 
 
 ## Getting Started
 
-- Fork this repository, then clone your fork of this repository.
-- Install dependencies using the bundle install.
-- Start the web server using bin/rails s -b 0.0.0.0 commend.The app will be served at http://localhost:3000.
-- Go to http://localhost:3000 in your browser.
+
+- Run bundle install to install dependencies
+- Create config/database.yml by copying config/database.example.yml
+- Create config/secrets.yml by copying config/secrets.example.yml
+- Run bin/rake db:reset to create, load and seed db
+- Create .env file based on .env.example
+- Sign up for a Stripe account
+- Put Stripe (test) keys into appropriate .env vars
+- Run bin/rails s -b 0.0.0.0 to start the server
+
 
 
 
 ## Functions of the Jungle are:
+
 
 - Jungle is online shopping website
 - It enable users to choose to buy items desired
@@ -40,7 +36,9 @@
 - There is admin page where products and categories can be added
 
 
+
 ## Final Product
+
 
 
 
